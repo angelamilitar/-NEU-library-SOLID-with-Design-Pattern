@@ -22,3 +22,5 @@ To solve this problem, the system must be refactored so that:
 The solution introduces a LibraryResource interface that represents any borrowable resource. Concrete resource classes such as Book, Journal, Thesis, and others implement this interface.
 
 The Student class now interacts with the abstraction instead of specific implementations, making the system flexible and scalable for future resource types.
+
+![alt text](image.png)
